@@ -1,6 +1,6 @@
 module "linuxvm" {
     source = "../terraform/linuxvm"
-    resource_group_name="apoorva_devops"
+    resource_group_name="vidhya-rg1"
     resource_group_location="East US"
     virtual_network_name="vnet1"
     subnet_name="subnet1"
